@@ -10,8 +10,8 @@ Features of this project:
 
 Steps in this project:
 1)  Created a serverless transcoding pipeline in AWS
-	-Created buckets for uploads and transcoded files in S3
-	-Created IAM role for Lambda and added permissions
-	-Set up Elastic Transcoder pipeline
+* Created buckets for uploads and transcoded files in S3
+* Created IAM role for Lambda and added permissions
+* Set up Elastic Transcoder pipeline
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
