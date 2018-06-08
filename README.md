@@ -13,5 +13,6 @@ Steps in this project:
 * Created buckets for uploads and transcoded files in S3
 * Created IAM role for Lambda and added permissions
 * Set up Elastic Transcoder pipeline
+* Created Lambda function
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
