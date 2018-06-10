@@ -14,5 +14,7 @@ Steps in this project:
 * Created IAM role for Lambda and added permissions
 * Set up Elastic Transcoder pipeline
 * Created Lambda function
+* Established Lambda trigger
+
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
