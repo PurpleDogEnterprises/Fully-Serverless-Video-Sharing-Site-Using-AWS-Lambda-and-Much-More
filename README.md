@@ -16,5 +16,10 @@ Steps in this project:
 * Created Lambda function
 * Established Lambda trigger
 
+2)  Set up the web site & user authentication (Auth0)
+* Created application and changed settings on Auth0 website
+* Added website files
+
+
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
