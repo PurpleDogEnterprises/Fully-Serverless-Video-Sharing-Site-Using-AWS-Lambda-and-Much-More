@@ -20,6 +20,10 @@ Steps in this project:
 * Created application and changed settings on Auth0 website
 * Added website files
 
+3)  Created an API in the AWS cloud & authenticate calls
+* Created new Lambda function to pull user's profile
+* Created API and deployed it
+
 
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
