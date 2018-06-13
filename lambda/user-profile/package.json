@@ -1,0 +1,13 @@
+{
+  "name": "user-profile",
+  "version": "1.0.0",
+  "description": "This Lambda function returns the current user-profile",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip *.json *.log"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
