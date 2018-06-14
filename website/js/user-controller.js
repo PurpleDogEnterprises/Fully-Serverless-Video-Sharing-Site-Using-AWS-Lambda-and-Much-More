@@ -38,7 +38,7 @@ var userController = {
         if (accessToken && idToken) {
             this.getUserProfile(accessToken, idToken);
         }        
-        
+
     },
     configureAuthenticatedRequests: function () {
         $.ajaxSetup({
@@ -92,6 +92,21 @@ var userController = {
             localStorage.setItem('accessToken', authResult.accessToken);
             localStorage.setItem('idToken', authResult.idToken);
             that.getUserProfile(authResult.accessToken, authResult.idToken);
+        });
+
+        this.uiElements.profileButton.click(function (e) {
+
+            var url = that.data.config.apiBaseUrl + '/user-profile';
+            var accessToken = localStorage.getItem('accessToken');
+            var data = {
+                accessToken: accessToken
+            };
+
+            $.get(url, data).done(function (data, status) {
+                // save user profile data in the modal
+                $('#user-profile-raw-json').text(JSON.stringify(data, null, 2));
+                $('#user-profile-modal').modal();
+            })
         });
     }
 };
