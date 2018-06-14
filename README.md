@@ -23,6 +23,8 @@ Steps in this project:
 3)  Created an API in the AWS cloud & authenticate calls
 * Created new Lambda function to pull user's profile
 * Created API and deployed it
+* Set up a custom authorizer between API Gateway and Lambda function
+* Updated website JavaScript
 
 
 
