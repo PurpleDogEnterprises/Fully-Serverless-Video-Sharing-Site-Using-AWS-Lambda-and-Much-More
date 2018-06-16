@@ -26,6 +26,8 @@ Steps in this project:
 * Set up a custom authorizer between API Gateway and Lambda function
 * Updated website JavaScript
 
+4)  Enabled browser-based uploads of video files to S3
+* Created IAM user to allow front-end video uploads
 
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
