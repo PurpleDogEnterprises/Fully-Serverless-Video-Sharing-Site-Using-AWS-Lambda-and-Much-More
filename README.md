@@ -28,6 +28,10 @@ Steps in this project:
 
 4)  Enabled browser-based uploads of video files to S3
 * Created IAM user to allow front-end video uploads
+* Created new Lambda function to set upload policy
+* Established API resource and method to allow function invocation
+* Added CORS configuration
+
 
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
