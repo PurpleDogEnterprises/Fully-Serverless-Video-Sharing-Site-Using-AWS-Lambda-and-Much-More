@@ -32,6 +32,9 @@ Steps in this project:
 * Established API resource and method to allow function invocation
 * Added CORS configuration
 
+5)  Connected Firebase to list videos
+* Created Firebase database and changed "Read" rules to true 
+
 
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
