@@ -35,6 +35,7 @@ Steps in this project:
 5)  Connected Firebase to list videos
 * Created Firebase database and changed "Read" rules to true
 * Added sample video data 
-* Created Firebase service account to allow communication with Lambda 
+* Created Firebase service account to allow communication with Lambda
+* Updated Lambda function
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
