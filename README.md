@@ -37,5 +37,6 @@ Steps in this project:
 * Added sample video data 
 * Created Firebase service account to allow communication with Lambda
 * Updated Lambda function
+* Added Lambda function
 
 NOTE: This project is in progress and all functionality may not yet be included at this time
